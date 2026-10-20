@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Heart, Mail, Flower2, Sparkles } from 'lucide-react'
 
 const MESSAGES = {
-  default: `Nhân ngày 20/10, xin gửi đến bạn những lời chúc chân thành nhất từ trái tim.\n\nBạn là người phụ nữ mạnh mẽ, dịu dàng và tỏa sáng theo cách riêng của mình. Mỗi nụ cười của bạn là ánh sáng sưởi ấm những người xung quanh, mỗi bước chân là hành trình đáng trân trọng.\n\nChúc bạn mãi mãi được yêu thương, được hạnh phúc và luôn tìm thấy niềm vui trong từng khoảnh khắc bình dị của cuộc sống. 💖`,
+  default: `Nhân ngày 20/10, chúc bạn luôn xinh đẹp, rạng rỡ và ngập tràn niềm vui trong cuộc sống!\n\nMong bạn luôn giữ vững nụ cười tươi tắn, tự tin tỏa sáng theo cách riêng, công việc hay học tập đều vạn sự như ý và luôn gặp nhiều may mắn.\n\nChúc bạn có một ngày 20/10 thật tuyệt vời, nhận được thật nhiều hoa, ngập tràn quà tặng và luôn hạnh phúc nhé! 🌸💖`,
   named: (name) =>
-    `Gửi đến ${name} — người phụ nữ đặc biệt của ngày hôm nay,\n\nNhân ngày 20/10, mình muốn gửi đến ${name} những điều yêu thương nhất. ${name} luôn là nguồn cảm hứng, là ánh sáng ấm áp và là người truyền năng lượng tích cực cho tất cả mọi người xung quanh.\n\nChúc ${name} mãi xinh đẹp, rạng rỡ và ngập tràn hạnh phúc. Hôm nay và mỗi ngày đều xứng đáng là ngày của ${name}! 💕🌸`,
+    `Gửi đến ${name} nhân ngày 20/10,\n\nChúc ${name} luôn xinh đẹp, tươi vui và tràn đầy năng lượng tích cực! Mong rằng mọi ước mơ và dự định của ${name} đều sẽ sớm thành hiện thực.\n\nChúc ${name} có một ngày 20/10 thật rực rỡ, nhận mỏi tay hoa và quà, và tận hưởng ngày của riêng mình thật trọn vẹn nhé! 💕🌸`,
 }
 
 // Flying hearts animation — x drift pre-computed at creation time (stored in heart object)
